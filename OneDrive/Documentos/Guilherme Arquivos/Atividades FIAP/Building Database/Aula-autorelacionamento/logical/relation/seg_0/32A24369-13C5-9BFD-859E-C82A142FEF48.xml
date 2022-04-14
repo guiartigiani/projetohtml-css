@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="32A24369-13C5-9BFD-859E-C82A142FEF48">
+<createdBy>guilh</createdBy>
+<createdTime>2022-04-14 00:42:22 UTC</createdTime>
+<ownerDesignName>Aula-autorelacionamento</ownerDesignName>
+<engineerTo>
+<item key="D2E8416A-988D-5E5F-AABE-D6477020232A" value="true"/>
+</engineerTo>
+<targetPk>9E7A5811-9608-1659-F3ED-4C7922430F0B</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C514DC51-B48A-9324-7E48-471319C8B7DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C514DC51-B48A-9324-7E48-471319C8B7DC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

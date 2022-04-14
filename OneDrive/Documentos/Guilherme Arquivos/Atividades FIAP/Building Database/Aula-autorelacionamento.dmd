@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Aula-autorelacionamento" id="1401F4FF-5B57-D8AF-C2C5-5B5BE9CB036D" version="3.5">
+<createdBy>guilh</createdBy>
+<createdTime>2022-04-14 00:33:21 UTC</createdTime>
+<ownerDesignName>Aula-autorelacionamento</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1401F4FF-5B57-D8AF-C2C5-5B5BE9CB036D</designId>
+</OSDM_Design>

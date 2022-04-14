@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="B4843B3C-51F3-17AC-7666-459BA16AFCB0">
+<createdBy>guilh</createdBy>
+<modifiedBy>guilh</modifiedBy>
+<createdTime>2022-04-14 00:36:23 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C514DC51-B48A-9324-7E48-471319C8B7DC" otype="Entity" vid="EBE41BD1-E67B-3EB0-B68F-177BFBA4ECB5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="181" y="19" width="170" height="110"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="32A24369-13C5-9BFD-859E-C82A142FEF48" otype="Relation" vid_source="EBE41BD1-E67B-3EB0-B68F-177BFBA4ECB5" vid_target="EBE41BD1-E67B-3EB0-B68F-177BFBA4ECB5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="351" y="83"/>
+<point x="376" y="83"/>
+<point x="376" y="154"/>
+<point x="281" y="154"/>
+<point x="281" y="129"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

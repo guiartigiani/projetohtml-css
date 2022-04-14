@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C514DC51-B48A-9324-7E48-471319C8B7DC" name="Empregado">
+<createdBy>guilh</createdBy>
+<createdTime>2022-04-14 00:36:23 UTC</createdTime>
+<ownerDesignName>Aula-autorelacionamento</ownerDesignName>
+<engineerTo>
+<item key="D2E8416A-988D-5E5F-AABE-D6477020232A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_emp" id="3B5C64EB-19DA-C8E1-2C5A-A433B379EC9E">
+<createdBy>guilh</createdBy>
+<createdTime>2022-04-14 00:39:02 UTC</createdTime>
+<ownerDesignName>Aula-autorelacionamento</ownerDesignName>
+<engineerTo>
+<item key="D2E8416A-988D-5E5F-AABE-D6477020232A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome_emp" id="80498003-BA85-773A-002F-78BA6963FD9D">
+<createdBy>guilh</createdBy>
+<createdTime>2022-04-14 00:40:21 UTC</createdTime>
+<ownerDesignName>Aula-autorelacionamento</ownerDesignName>
+<engineerTo>
+<item key="D2E8416A-988D-5E5F-AABE-D6477020232A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gerente" id="C087F233-6F90-C8C0-C226-8A2DA13E54EB">
+<createdBy>guilh</createdBy>
+<createdTime>2022-04-14 00:42:22 UTC</createdTime>
+<generatorID>32A24369-13C5-9BFD-859E-C82A142FEF48</generatorID>
+<ownerDesignName>Aula-autorelacionamento</ownerDesignName>
+<engineerTo>
+<item key="D2E8416A-988D-5E5F-AABE-D6477020232A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3B5C64EB-19DA-C8E1-2C5A-A433B379EC9E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E7A5811-9608-1659-F3ED-4C7922430F0B" name="Empregado PK">
+<createdBy>guilh</createdBy>
+<createdTime>2022-04-14 00:39:23 UTC</createdTime>
+<ownerDesignName>Aula-autorelacionamento</ownerDesignName>
+<engineerTo>
+<item key="D2E8416A-988D-5E5F-AABE-D6477020232A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B5C64EB-19DA-C8E1-2C5A-A433B379EC9E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
