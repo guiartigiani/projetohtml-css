@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54C0FB33-8114-C2C2-3189-F7209754A856" name="Pessoa">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 00:45:38 UTC</createdTime>
+<comment><![CDATA[Tabela para guardar registro de pessoas cadastradas ]]></comment>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Pessoa" id="01231FE1-035D-D4D1-7FBA-28CFD1F90B44">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 00:47:19 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome_pessoa" id="43989823-97B6-8D93-40DE-0647CCD3EDFF">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 00:47:49 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_pessoa" id="807CA551-1DA5-F5AF-34D7-B184A7352A6D">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 00:49:25 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pwd_pessoa" id="0C905B31-FFF6-9240-04AD-5E0BEA2556E8">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 00:49:59 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB08A180-CCFD-4332-364B-1D9B6A743C0F" name="Pessoa PK">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 00:47:39 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>01231FE1-035D-D4D1-7FBA-28CFD1F90B44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8AD738AD-3056-13F4-A580-139B49469B4B" name="Categoria">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 00:46:25 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Categoria" id="AED3D3BE-4D40-BE2A-2A28-7B32B4BE532A">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 01:01:11 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_categ" id="79579E0C-9841-EFA9-6460-77C4E1A65103">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 01:01:31 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29BC6C35-07D1-B8B8-EC9F-9A762A1D4641" name="Empresa PK">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 01:01:28 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AED3D3BE-4D40-BE2A-2A28-7B32B4BE532A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

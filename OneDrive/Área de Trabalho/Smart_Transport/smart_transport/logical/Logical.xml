@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4BA01C4D-B2AE-67C3-5C0C-0E41A63248A2" mainViewID="E93A852B-7A4F-9E3F-6839-C042F13EEB2A">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 00:45:17 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

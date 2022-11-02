@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF494E5A-FD9A-883C-F04B-E82ED24341B0" name="ST_CicloMotor">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>663DA048-833E-588B-598B-A2270AEAC601</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<ordsAlias>ciclomotor</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Categoria_ID_Categoria" id="DF25108F-4607-3EBD-72DA-28E25B5FE415">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>A60EB393-52F0-2098-F9FD-C2A9DB73830F</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDAB46DF-2130-B769-8DA2-D159B9707A10" referredColumn="3008B1F2-9535-4905-3C09-8FDB3B076292"/>
+</associations>
+</Column>
+<Column name="Marca" id="E9138E4A-6AF7-A491-4A4C-AE59A1206855">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 01:25:41 UTC</createdTime>
+<generatorID>D6FDA16F-8E2F-FCB6-A633-B5BCB831966A</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_moto" id="DB8CB1CE-9943-71D3-5C24-A004D00B0F79">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 01:25:41 UTC</createdTime>
+<generatorID>3C5A11B8-6DEC-A4E4-E123-2B5FB9291D36</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Autonomia" id="61968B6B-A3D4-0CB8-C195-A0FFBC7D1085">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 01:25:41 UTC</createdTime>
+<generatorID>9D3FD5A1-D4D5-F442-E4B7-ECEDBF2D28CD</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8386D869-AAAF-0BDB-A78F-7C57F5019236" name="CicloMotor_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 01:25:41 UTC</createdTime>
+<generatorID>42D1D517-4A82-FADA-7FC6-FA6568455EFB</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB8CB1CE-9943-71D3-5C24-A004D00B0F79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7554B167-3C52-5D84-2F88-F9CCCE02C329" name="CicloMotor_Categoria_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>4576DE48-2CF7-986B-29A6-A78B2D99FEDD</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF25108F-4607-3EBD-72DA-28E25B5FE415"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

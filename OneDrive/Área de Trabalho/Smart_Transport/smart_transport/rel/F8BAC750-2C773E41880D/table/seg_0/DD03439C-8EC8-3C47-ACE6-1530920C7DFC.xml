@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD03439C-8EC8-3C47-ACE6-1530920C7DFC" name="ST_Aluguel">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>273F0EFC-3ED2-7A78-8732-31F322E0D253</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<ordsAlias>aluguel</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Categoria_ID_Categoria" id="E4ACC1A3-8F49-DFD2-A58C-5693D7862771">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>8CD94E4C-001F-F8D6-722F-6F827824286C</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3D04315-5FF5-7CB3-D617-71BE7EBC4C6E" referredColumn="3008B1F2-9535-4905-3C09-8FDB3B076292"/>
+</associations>
+</Column>
+<Column name="Pessoa_ID_Pessoa" id="063FEED0-96CA-B127-B38E-853D68573316">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>1B3CECC2-ACBA-B3B8-0E53-B2CB76B7A95D</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EABAA3EB-AC25-96F8-8DBA-BFB29B4CF6C2" referredColumn="41930134-392C-11A2-2552-711F542C1BC3"/>
+</associations>
+</Column>
+<Column name="Data_Aluguel" id="B23FFBE6-11EA-F928-D04D-8EDA0DDB9AD9">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 01:25:41 UTC</createdTime>
+<generatorID>2D5DBAE9-8832-57DE-7356-9E821DF6C797</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33FB3B0B-B8BC-0766-4C28-05D3E0AD584B" name="Veiculo_Categoria_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>ED66B7F6-D0EA-99FA-7601-35198B31843A</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4ACC1A3-8F49-DFD2-A58C-5693D7862771"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20BBE107-6E88-41B5-4422-E5E220F5E62E" name="Veiculo_Pessoa_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>902E0FF7-B2DE-C892-EFB2-C38419DC7FBF</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="063FEED0-96CA-B127-B38E-853D68573316"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

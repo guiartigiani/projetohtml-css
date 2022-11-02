@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5BAFE22-5E27-E238-B3F7-94C610C69C9D" name="ST_Categoria">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>8AD738AD-3056-13F4-A580-139B49469B4B</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<ordsAlias>categoria</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Categoria" id="3008B1F2-9535-4905-3C09-8FDB3B076292">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>AED3D3BE-4D40-BE2A-2A28-7B32B4BE532A</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_categ" id="1FBC93F0-FA9B-D15A-A5AB-B39AC1AB3419">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>79579E0C-9841-EFA9-6460-77C4E1A65103</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0B613A5-0605-6663-711E-456C12C45C21" name="Categoria_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>29BC6C35-07D1-B8B8-EC9F-9A762A1D4641</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3008B1F2-9535-4905-3C09-8FDB3B076292"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

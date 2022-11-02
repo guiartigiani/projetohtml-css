@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33A7105D-5092-E47E-4851-B616E9F44444" name="ST_Carro">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>7FAEEAA3-C7F9-CCB3-22B0-81155B158DC3</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<ordsAlias>carro</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Categoria_ID_Categoria" id="ABBB33EB-E694-9045-90FC-9BA5E4BAFFB8">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>33931866-335E-8A69-021D-70A2BCE67620</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31C2E112-1E41-76D1-6918-8091A3970F02" referredColumn="3008B1F2-9535-4905-3C09-8FDB3B076292"/>
+</associations>
+</Column>
+<Column name="Marca" id="85C23E1D-B2DA-A702-A10C-5C23C23E1413">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 01:25:41 UTC</createdTime>
+<generatorID>03025552-4023-7AF3-EB4E-8B71A2D38FAD</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Autonomia" id="C7B9CFE1-AFFC-EFD8-CA05-0ED2198BA18D">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 01:25:41 UTC</createdTime>
+<generatorID>E6622A00-48DC-C2F8-246E-1B4C8E63B5DD</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Carro" id="0C2D4BAD-982A-277D-71F3-DE3CC5D53D6B">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 01:25:41 UTC</createdTime>
+<generatorID>F3F7D9B8-9662-A51E-BA1D-26ED503D27ED</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A97A303-5441-F275-202A-C0AD5A31DA78" name="Carro_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 01:25:41 UTC</createdTime>
+<generatorID>1CDF7F01-499F-9486-8635-BC5C19C1D17C</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C2D4BAD-982A-277D-71F3-DE3CC5D53D6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25AD3AEE-B453-04C0-10BB-7DE9D1D9296D" name="Carro_Categoria_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>972E6B37-E2C4-8723-E7CA-BA7DA4B0C0DD</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABBB33EB-E694-9045-90FC-9BA5E4BAFFB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="273F0EFC-3ED2-7A78-8732-31F322E0D253" name="Aluguel">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 00:46:32 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Categoria" id="8CD94E4C-001F-F8D6-722F-6F827824286C">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:34:14 UTC</createdTime>
+<generatorID>ED66B7F6-D0EA-99FA-7601-35198B31843A</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<referedAttribute>AED3D3BE-4D40-BE2A-2A28-7B32B4BE532A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pessoa" id="1B3CECC2-ACBA-B3B8-0E53-B2CB76B7A95D">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:34:28 UTC</createdTime>
+<generatorID>902E0FF7-B2DE-C892-EFB2-C38419DC7FBF</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<referedAttribute>01231FE1-035D-D4D1-7FBA-28CFD1F90B44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_Aluguel" id="2D5DBAE9-8832-57DE-7356-9E821DF6C797">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:41:38 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

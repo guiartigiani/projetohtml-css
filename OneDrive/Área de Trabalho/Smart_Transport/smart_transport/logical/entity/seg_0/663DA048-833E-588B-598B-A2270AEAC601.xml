@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="663DA048-833E-588B-598B-A2270AEAC601" name="CicloMotor">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:31:57 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Categoria" id="A60EB393-52F0-2098-F9FD-C2A9DB73830F">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:33:47 UTC</createdTime>
+<generatorID>4576DE48-2CF7-986B-29A6-A78B2D99FEDD</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<referedAttribute>AED3D3BE-4D40-BE2A-2A28-7B32B4BE532A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Marca" id="D6FDA16F-8E2F-FCB6-A633-B5BCB831966A">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 01:00:14 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_moto" id="3C5A11B8-6DEC-A4E4-E123-2B5FB9291D36">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 01:00:47 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Autonomia" id="9D3FD5A1-D4D5-F442-E4B7-ECEDBF2D28CD">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 01:01:21 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="42D1D517-4A82-FADA-7FC6-FA6568455EFB" name="CicloMotor PK">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 01:01:18 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3C5A11B8-6DEC-A4E4-E123-2B5FB9291D36</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

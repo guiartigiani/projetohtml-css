@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDAB46DF-2130-B769-8DA2-D159B9707A10" containerWithKeyObject="AF494E5A-FD9A-883C-F04B-E82ED24341B0" localFKIndex="7554B167-3C52-5D84-2F88-F9CCCE02C329" name="CicloMotor_Categoria_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>4576DE48-2CF7-986B-29A6-A78B2D99FEDD</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<referredTableLongName>ST_Categoria</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5BAFE22-5E27-E238-B3F7-94C610C69C9D</referredTableID>
+<keyObject>F0B613A5-0605-6663-711E-456C12C45C21</keyObject>
+<referredKeyID>F0B613A5-0605-6663-711E-456C12C45C21</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Categoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

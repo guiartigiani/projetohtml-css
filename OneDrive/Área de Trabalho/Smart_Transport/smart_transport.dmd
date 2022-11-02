@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="smart_transport" id="8E3DD91F-79FF-C732-8958-BC6FE0451D37" version="3.5">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 00:45:17 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8E3DD91F-79FF-C732-8958-BC6FE0451D37</designId>
+</OSDM_Design>

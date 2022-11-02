@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="ED66B7F6-D0EA-99FA-7601-35198B31843A">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:34:14 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<engineerTo>
+<item key="F8BAC750-B8FF-666A-48C7-2C773E41880D" value="true"/>
+</engineerTo>
+<sourcePk>29BC6C35-07D1-B8B8-EC9F-9A762A1D4641</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8AD738AD-3056-13F4-A580-139B49469B4B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>273F0EFC-3ED2-7A78-8732-31F322E0D253</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

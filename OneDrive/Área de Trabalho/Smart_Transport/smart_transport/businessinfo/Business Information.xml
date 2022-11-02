@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="47781679-1C6E-7306-2373-AFB8CF8F77B0">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-01 00:45:17 UTC</createdTime>
+<ownerDesignName>smart_transport</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

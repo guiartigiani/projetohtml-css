@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="682ED12B-2725-90E1-6962-CF4B96A284C1" name="ST_Pessoa">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<comment><![CDATA[Tabela para guardar registro de pessoas cadastradas ]]></comment>
+<generatorID>54C0FB33-8114-C2C2-3189-F7209754A856</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<ordsAlias>pessoa</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ST_Pessoa_ID" id="41930134-392C-11A2-2552-711F542C1BC3">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>01231FE1-035D-D4D1-7FBA-28CFD1F90B44</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ST_Pessoa_ID_Pessoa</notNullConstraintName>
+</Column>
+<Column name="Nome_pessoa" id="62C63402-572A-0B48-D36B-B50399A04EC2">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>43989823-97B6-8D93-40DE-0647CCD3EDFF</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ST_Pessoa_Nome_pessoa</notNullConstraintName>
+</Column>
+<Column name="email_pessoa" id="84F5CA26-B8E2-495F-5967-74942FCF6A31">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>807CA551-1DA5-F5AF-34D7-B184A7352A6D</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ST_Pessoa_email_pessoa</notNullConstraintName>
+</Column>
+<Column name="pwd_pessoa" id="8A04CFF2-D393-351B-688F-AA8CC80DB27D">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>0C905B31-FFF6-9240-04AD-5E0BEA2556E8</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_ST_Pessoa_pwd_pessoa</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B110C832-E1E4-1F6A-B913-E035D2F128A9" name="ST_Pessoa_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2022-11-02 00:38:25 UTC</createdTime>
+<generatorID>EB08A180-CCFD-4332-364B-1D9B6A743C0F</generatorID>
+<ownerDesignName>smart_transport</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41930134-392C-11A2-2552-711F542C1BC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
