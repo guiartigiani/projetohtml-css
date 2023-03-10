@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="TBSPC_ALUNOS" directorySegmentName="seg_0" id="2602B1B5-246C-373E-A8AE-5ADE0F60002B">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:46:53 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

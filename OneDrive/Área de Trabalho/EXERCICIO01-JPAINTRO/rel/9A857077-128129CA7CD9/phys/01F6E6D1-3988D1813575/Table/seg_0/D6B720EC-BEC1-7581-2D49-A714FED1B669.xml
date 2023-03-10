@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_USUARIO" directorySegmentName="seg_0" id="D6B720EC-BEC1-7581-2D49-A714FED1B669">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="fl_foto" id="09384610-2566-4FA0-2D82-8DD0A847E04A">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_cpf" id="2246FE92-C680-C159-E1AE-BC3C9F826BEF">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_USUARIO" id="38B501EB-A10D-D408-AD52-8AC28AF43BCB">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="vl_altura" id="496B393B-340D-C972-CD00-6F0429D98A30">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ds_tipo" id="6BD7CC72-94C1-CBB3-20A1-5A15C2377D69">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_usuario" id="747D663D-8263-9C66-BB82-5BB456219698">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="vl_senha" id="981B8BDB-2C80-2DD2-BB0C-4F9823C233BA">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ds_email" id="B7CDD5FB-FC9F-8E70-8F2E-442895EF0517">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dt_criacao" id="CA797FEA-F332-E863-B2FF-741F0BA5F9EA">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_USUARIO_PK" id="7C506583-A08F-F2BE-DB8D-C9FAC9C1F2DD">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

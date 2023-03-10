@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6493C603-1491-0322-E524-4C2764D5519E" name="T_VEICULO">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 02:09:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_veiculo" id="71FDFFAB-8C8B-A7AA-E32E-E743C44E1063">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 02:12:00 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_placa" id="313DC5A0-17C5-5831-18D7-58BAE2BECEAE">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 02:12:00 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cor" id="23C7DCA1-1CB8-198C-AB52-34ABCBCB4E78">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 02:12:00 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ano" id="5F412875-33AD-31BC-98C3-DC0FD3F61F4C">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 02:12:00 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="098B7228-AB1E-C802-9CEC-F3057E31D215" name="T_VEICULO_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 02:12:00 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71FDFFAB-8C8B-A7AA-E32E-E743C44E1063"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

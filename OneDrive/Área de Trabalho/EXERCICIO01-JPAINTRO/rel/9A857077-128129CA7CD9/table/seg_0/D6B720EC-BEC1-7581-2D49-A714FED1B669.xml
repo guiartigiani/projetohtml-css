@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6B720EC-BEC1-7581-2D49-A714FED1B669" name="T_USUARIO">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:30:26 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_USUARIO" id="38B501EB-A10D-D408-AD52-8AC28AF43BCB">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:32:50 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuario" id="747D663D-8263-9C66-BB82-5BB456219698">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:40:38 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_senha" id="981B8BDB-2C80-2DD2-BB0C-4F9823C233BA">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:40:38 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_criacao" id="CA797FEA-F332-E863-B2FF-741F0BA5F9EA">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:40:38 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="2246FE92-C680-C159-E1AE-BC3C9F826BEF">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:40:38 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="B7CDD5FB-FC9F-8E70-8F2E-442895EF0517">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:40:38 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_altura" id="496B393B-340D-C972-CD00-6F0429D98A30">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:40:38 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fl_foto" id="09384610-2566-4FA0-2D82-8DD0A847E04A">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:40:38 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo" id="6BD7CC72-94C1-CBB3-20A1-5A15C2377D69">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:40:38 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C506583-A08F-F2BE-DB8D-C9FAC9C1F2DD" name="T_USUARIO_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:32:50 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38B501EB-A10D-D408-AD52-8AC28AF43BCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

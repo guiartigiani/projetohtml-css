@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_EMPRESA" directorySegmentName="seg_0" id="B54D5A11-A1AE-AB2D-3983-CAE56F08C620">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ds_email" id="0A6569F3-5B2E-C04C-82C6-E7F3EACEA64B">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dt_fundacao" id="2528A501-B199-A70E-1A5B-C68C60ECC7CC">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ds_estatal" id="36968569-8FF7-EA4A-3ED9-60D330EEE519">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fl_logo" id="68A2E573-4141-F6B0-1921-50B041AC1028">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_funcionarios" id="A30A2CFA-C817-97A9-2C4E-2CBC5E03CBFD">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cd_empresa" id="A3DD49E2-DD9B-1D14-BA40-C453872A08F2">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_empresa" id="CC49B343-F5F9-CEF7-7068-C9E8A4D21E41">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="vl_faturamento" id="CCE0BAA1-36BB-7E08-121B-20DE517DF449">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_cnpj" id="EC29DBEA-7C7D-369F-0C1A-ECEEDB19FB46">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_EMPRESA_PK" id="2ED735E2-4648-97EA-D925-067E6F7FA3C7">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 01:47:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

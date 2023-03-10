@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EXERCICIO01-JPAINTRO" id="EDA00C01-BB32-37A7-A9A4-9EB4DAA32B95" version="3.5">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:29:56 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EDA00C01-BB32-37A7-A9A4-9EB4DAA32B95</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="90BB0E8C-DA17-D0C9-D68C-793B1BF148A8">
+<designStoragePath>C:\teste</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

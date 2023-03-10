@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DDDA2453-757E-FF16-F026-4993D95E468D" mainViewID="7147B2C4-3F14-1A8E-D8EC-7B1F54C58C72">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:29:56 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

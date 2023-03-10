@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="9A857077-F0BC-0FF5-4908-128129CA7CD9" mainViewID="ABBD360C-2ED3-9D87-9BCB-1FE9A670D0D7">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:29:59 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>teste.sql</fileName>
+<pathName>C:\Users\guilh\AppData\Roaming\SQL Developer</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

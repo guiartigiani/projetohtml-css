@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_VEICULO" directorySegmentName="seg_0" id="6493C603-1491-0322-E524-4C2764D5519E">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 02:09:02 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ds_cor" id="23C7DCA1-1CB8-198C-AB52-34ABCBCB4E78">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 02:12:00 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ds_placa" id="313DC5A0-17C5-5831-18D7-58BAE2BECEAE">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 02:12:00 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_ano" id="5F412875-33AD-31BC-98C3-DC0FD3F61F4C">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 02:12:00 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cd_veiculo" id="71FDFFAB-8C8B-A7AA-E32E-E743C44E1063">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 02:12:00 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_VEICULO_PK" id="098B7228-AB1E-C802-9CEC-F3057E31D215">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 02:12:00 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

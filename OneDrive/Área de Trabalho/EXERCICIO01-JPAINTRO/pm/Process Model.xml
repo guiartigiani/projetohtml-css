@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="5303BA0E-D95D-36E2-A944-8AEF4F23AF3E">
+<createdBy>guilh</createdBy>
+<createdTime>2023-03-10 00:29:56 UTC</createdTime>
+<ownerDesignName>EXERCICIO01-JPAINTRO</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
