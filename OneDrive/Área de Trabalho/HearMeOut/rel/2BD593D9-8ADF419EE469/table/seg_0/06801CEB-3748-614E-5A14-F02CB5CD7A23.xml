@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06801CEB-3748-614E-5A14-F02CB5CD7A23" name="mensagens">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>F1EFCF6A-5120-9773-BE9E-9BA0B15C8E45</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mensagem" id="876900BF-A1C4-012D-B6CB-8EBF4AA2D63B">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>30CA7043-8E1E-22F6-0BFB-7326818269DD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_conversa" id="3DBC0B38-CA46-8FD5-DDF1-9AF33D4D5DC4">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>F1FCCD8B-2FFF-1297-94FB-87B1FA13C947</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAF07166-23DB-8FAF-496B-061EEAD862C6" referredColumn="F14A6C74-105B-94DA-764F-7AAFC96412D4"/>
+</associations>
+</Column>
+<Column name="id_usuario" id="40CAA630-E856-EFC9-C9B7-4762B5457BCD">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>6D30778D-EB5D-BC5E-56A6-70026BB45BCF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCC7AB80-BC8C-6140-7D74-0F9D0B4B8418" referredColumn="17560A31-1E46-1A0D-52F9-DB5F948F3D59"/>
+</associations>
+</Column>
+<Column name="conteudo" id="AA82889E-CB77-9B14-B9BC-292B9D2710AC">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>77A7D9B0-D2A1-B47D-CA2B-17316211C1A7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>F2388431-6B8C-91A8-951C-B39B84584BB2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="081C8687-7AAA-32C2-DCD9-146100AECBB5">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>E72CA7B2-2BEC-844A-264C-3D38C767556C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A9AE827D-3C6A-DD49-0916-B21228CB9FC6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_envio" id="BCEA6428-C21A-2DBF-B1FC-6A6E06C83A0B">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>4F4EBBA5-7BB9-F9F8-592B-30F3DACBF366</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>2CF4BBF6-FAFD-0C93-B85A-6DC7F9ED3960</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C7D0EF4-96E1-46A1-3E79-73C90119A665" name="mensagens_PK">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>E4C31424-3C80-8F07-3960-91688F5CC579</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="876900BF-A1C4-012D-B6CB-8EBF4AA2D63B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D40865F2-266B-18BA-435D-ED7899656A55" name="fk_id_usuario_mensagens">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40CAA630-E856-EFC9-C9B7-4762B5457BCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFBCDEF2-BDF7-9648-8FDA-142B9DBA528B" name="fk_id_conversa">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DBC0B38-CA46-8FD5-DDF1-9AF33D4D5DC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="usuarios" directorySegmentName="seg_0" id="EA0B9487-2E31-B43E-AEA9-D527887DAFD3">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="senha" id="86CB3705-3E79-0A4E-EDB5-0687D80666B7">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tipo_usuario" id="9BC5F14F-E0DF-261A-C3DC-4D2E33885D91">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="A1D9502C-2D93-0ADE-8F98-2F1C2A57FE9A">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_usuario" id="ACE9FEF5-6863-5C4B-D0FA-4C839B791F74">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nome" id="BC946B2E-2F74-896C-1EBF-A77E80E723E5">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="usuarios_PK" id="0568438E-551D-D8F8-1DB2-3B18E798270D">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="INDEX_1" id="4473A81D-46F3-99F6-33DA-67961B391812">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

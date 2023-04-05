@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBCF07D0-EE1B-C932-AB70-219CA16866A3" name="usuarios">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>63944013-787D-5FB6-5536-E0081E811E6D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="17560A31-1E46-1A0D-52F9-DB5F948F3D59">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>415FF73E-2629-BC34-48BF-39E658E07AA7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="59AE0454-B6D1-1408-FE94-2C0455F3F3D2">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>334559DE-F1F4-7765-CBF3-084827F7CFBE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36AA17C7-862E-97B8-0AB4-0262D4D0A117</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="91D01584-E684-29BC-1713-749BD117ACA4">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>BBAA3EFA-049F-86E8-AEDD-66B466F69ED3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36AA17C7-862E-97B8-0AB4-0262D4D0A117</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="43D64368-BA7B-F73D-660E-36D3CBC5837A">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>A8C58C54-4460-B571-FCD3-33848C69E655</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36AA17C7-862E-97B8-0AB4-0262D4D0A117</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="829A8B90-4C8D-A9D1-041E-51AE3CB240D8">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>68A1F838-071D-B281-3660-86374FC22A37</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4A1F9E5E-1AF0-AD23-95ED-370FF84F59E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_criacao" id="A90DB4AC-F4A0-D4F8-82F4-26C4AA661D31">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>8E04B441-C4B6-8D9B-099A-A2267AFAAE9E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>2CF4BBF6-FAFD-0C93-B85A-6DC7F9ED3960</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="894B0C9B-1158-47DF-5933-2D06010C4A65" name="usuarios_PK">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>44527AE8-5B4F-979A-8D90-8C942D6E166C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17560A31-1E46-1A0D-52F9-DB5F948F3D59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

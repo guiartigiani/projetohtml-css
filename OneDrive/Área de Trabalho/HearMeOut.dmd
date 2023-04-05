@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HearMeOut" id="12A8DCBE-DF58-5B2D-6D5F-70CC68A769D1" version="3.5">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:21 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>12A8DCBE-DF58-5B2D-6D5F-70CC68A769D1</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6DF738F7-9365-785B-450B-A04BA05DD029">
+<designStoragePath>C:\plusoft</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4A347D80-5A7C-820D-54A5-4F581B9CBBD2">
+<designStoragePath>C:\plusoft</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="86EA79AB-6E2D-BC3D-36BB-5A2D6DCC0DAF">
+<designStoragePath>C:\Users\guilh\OneDrive\Área de Trabalho\HearMeOutDER</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="697FFBF0-7180-4011-BE21-AD978CDE9092">
+<designStoragePath>C:\plusoft</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

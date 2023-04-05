@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="usuarios_pj" directorySegmentName="seg_0" id="476DAA93-5E51-E3A4-72F3-EC2E3DBFC006">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="cnpj" id="13E22271-2FD7-AB69-3A10-6807E62452E1">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_usuario" id="26CDE1EF-6514-33AA-210D-3D861E091C46">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="razao_social" id="7E57ADF4-33F7-FBE0-8CBD-C5D39E579220">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_endereco" id="D434E105-C86B-7E7A-4224-BA29DA194185">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="usuarios_pj_usuarios_FK" id="4C02B9C9-A328-5263-D749-500C06CA9A70">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="usuarios_pj_enderecos_FK" id="CFD23895-A139-7C58-A176-0A89CE151364">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="usuarios_pj_PK" id="170A82DF-1ADD-22CD-1403-F0C8BD18FAE1">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="INDEX_1" id="5438F1D2-80BA-2EC6-BBDD-42493B16B4DA">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<nameChanged>true</nameChanged>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

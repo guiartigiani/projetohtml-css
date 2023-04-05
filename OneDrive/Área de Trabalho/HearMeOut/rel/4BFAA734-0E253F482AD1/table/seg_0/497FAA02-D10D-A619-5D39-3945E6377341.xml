@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="497FAA02-D10D-A619-5D39-3945E6377341" name="conversas">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>97A0066C-9080-D551-6F44-FA2E0119D0AD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_conversa" id="C1D530B9-5004-3B74-BCD5-F605C3BF1F37">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>C49F3723-5E8C-72CC-F0E2-ECC5FDD64C5B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario1" id="D2951691-4F3A-3FC4-412C-10559111061E">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>2C8E36CD-E184-92A7-5152-0E2A3B57325C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC5C9F79-485A-F9C3-B219-9D920151DDC4" referredColumn="ACE9FEF5-6863-5C4B-D0FA-4C839B791F74"/>
+</associations>
+</Column>
+<Column name="id_usuario2" id="4C44108A-F840-19B0-8A7F-91F571918068">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>F53885B8-4F24-F3B5-479D-E612DCA4E0B0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F1696B7-A294-46C4-3E63-AE65DE3D6DC1" referredColumn="ACE9FEF5-6863-5C4B-D0FA-4C839B791F74"/>
+</associations>
+</Column>
+<Column name="data_inicio" id="78CE15C9-D722-B412-DC67-41F7993C2DF9">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>7AAF581C-7A67-7B73-85AA-807826D851BA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>2CF4BBF6-FAFD-0C93-B85A-6DC7F9ED3960</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_fim" id="4BE643AB-5DA2-8697-398B-8E1EC81CB41A">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>34A35610-26B4-C696-8DF6-0D7F39FEC5C1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>2CF4BBF6-FAFD-0C93-B85A-6DC7F9ED3960</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72CCC356-0BFE-305F-7DD9-A3C174C4104D" name="conversas_PK">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>E7467F8D-444C-C7DD-C0B1-1D3339B76214</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1D530B9-5004-3B74-BCD5-F605C3BF1F37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32F9C616-EE64-D07D-BC5F-F526B69096C8" name="fk_id_usuario1">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2951691-4F3A-3FC4-412C-10559111061E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A618486-F41C-D2DC-28EA-C2ADB0B172D7" name="fk_id_usuario2">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C44108A-F840-19B0-8A7F-91F571918068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

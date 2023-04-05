@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_id_usuario_mensagens" directorySegmentName="seg_0" id="84A0AD26-8321-E670-6289-93E1A5739C6B">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>B57B7100-13DE-DAF6-56F4-194232A568EB</importedID>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<sourcePk>08531406-759D-EBAE-2B29-43B7C5627C2A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7846F3A7-DC06-B33C-DBAD-19AC096D07F7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D47AB93A-418D-7C4B-A2D4-4B62B52B6C2B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

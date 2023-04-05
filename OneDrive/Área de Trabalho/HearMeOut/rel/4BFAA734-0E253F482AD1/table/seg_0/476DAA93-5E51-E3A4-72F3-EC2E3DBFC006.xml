@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="476DAA93-5E51-E3A4-72F3-EC2E3DBFC006" name="usuarios_pj">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>CCEFA636-8146-9857-C79E-E90F4CCEB172</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="26CDE1EF-6514-33AA-210D-3D861E091C46">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>CA0AA8CE-3749-D72B-AA69-8FC04B916DFD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00C62734-5749-446E-49FA-3726F42B58C8" referredColumn="ACE9FEF5-6863-5C4B-D0FA-4C839B791F74"/>
+</associations>
+</Column>
+<Column name="cnpj" id="13E22271-2FD7-AB69-3A10-6807E62452E1">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>A1318459-D31E-A0D6-7360-045ABBA7EE63</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9C9770AE-0FD1-723E-C5FD-9E9F6074080C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razao_social" id="7E57ADF4-33F7-FBE0-8CBD-C5D39E579220">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>389D0C35-0C9B-E80B-B109-EB0CD46432A6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>36AA17C7-862E-97B8-0AB4-0262D4D0A117</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_endereco" id="D434E105-C86B-7E7A-4224-BA29DA194185">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>115FD202-9CE6-9399-1A89-5EC31BEED447</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E126E44-59E5-9C04-8D69-DABA58C6907D" referredColumn="E823C5CC-29EC-E42A-3BD7-E3FC3FC8E5F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="170A82DF-1ADD-22CD-1403-F0C8BD18FAE1" name="usuarios_pj_PK">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>187674FE-7E49-7482-088F-598AD2E78280</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26CDE1EF-6514-33AA-210D-3D861E091C46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5438F1D2-80BA-2EC6-BBDD-42493B16B4DA" name="INDEX_1v2">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>7119A8FD-D896-DB99-DA46-C4174FA87C56</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13E22271-2FD7-AB69-3A10-6807E62452E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFD23895-A139-7C58-A176-0A89CE151364" name="usuarios_pj_enderecos_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D434E105-C86B-7E7A-4224-BA29DA194185"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C02B9C9-A328-5263-D749-500C06CA9A70" name="usuarios_pj_usuarios_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26CDE1EF-6514-33AA-210D-3D861E091C46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

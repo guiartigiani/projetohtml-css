@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CCC7AB80-BC8C-6140-7D74-0F9D0B4B8418" containerWithKeyObject="06801CEB-3748-614E-5A14-F02CB5CD7A23" localFKIndex="D40865F2-266B-18BA-435D-ED7899656A55" name="fk_id_usuario_mensagens">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:37:58 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>2D25DF51-C20E-F3E3-FCAE-F2A64328F4D3</importedID>
+<referredTableLongName>usuarios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CBCF07D0-EE1B-C932-AB70-219CA16866A3</referredTableID>
+<keyObject>894B0C9B-1158-47DF-5933-2D06010C4A65</keyObject>
+<referredKeyID>894B0C9B-1158-47DF-5933-2D06010C4A65</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

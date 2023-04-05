@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="00C62734-5749-446E-49FA-3726F42B58C8" containerWithKeyObject="476DAA93-5E51-E3A4-72F3-EC2E3DBFC006" localFKIndex="4C02B9C9-A328-5263-D749-500C06CA9A70" name="usuarios_pj_usuarios_FK">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:48:44 UTC</createdTime>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<importedID>A1153FB8-21A6-EF05-E727-6736FC3A6670</importedID>
+<referredTableLongName>usuarios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA0B9487-2E31-B43E-AEA9-D527887DAFD3</referredTableID>
+<keyObject>0568438E-551D-D8F8-1DB2-3B18E798270D</keyObject>
+<referredKeyID>0568438E-551D-D8F8-1DB2-3B18E798270D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
