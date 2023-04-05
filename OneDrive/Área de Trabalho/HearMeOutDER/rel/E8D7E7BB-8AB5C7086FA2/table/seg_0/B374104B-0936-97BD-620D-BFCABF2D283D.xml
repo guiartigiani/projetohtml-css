@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B374104B-0936-97BD-620D-BFCABF2D283D" name="interacoes_chatgpt">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<importedID>82F216A8-5E4F-1A3A-FCD7-C99DFCD76F6D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_interacao" id="C00C3794-2507-53A3-3820-4CA70802B1D8">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<importedID>39A71B5E-24E5-2F95-1A94-562F68504971</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="629AED53-9275-A970-A7FB-D7C2258F51B8">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<importedID>D7640363-1A3C-95EF-9FEB-79C1EA8D5DFD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pergunta" id="FF85E581-5271-AC19-2A00-8A82781D5F62">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<importedID>D7290F79-2F3A-49AE-FB6A-D8BF0AF7EF9D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>F2388431-6B8C-91A8-951C-B39B84584BB2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resposta" id="80FF8791-72DA-593C-6BCD-F1853E7036B4">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<importedID>9DE347B5-5812-723D-8F51-B5D5BC194BEC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>F2388431-6B8C-91A8-951C-B39B84584BB2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E6DFE29-8755-CD0F-B5CD-A672EF6A2CA2" name="interacoes_chatgpt_PK">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<importedID>3997D2FA-2DB5-652D-8FDA-60C14C85C2D7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C00C3794-2507-53A3-3820-4CA70802B1D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

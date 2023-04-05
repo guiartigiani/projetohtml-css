@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HearMeOutDER" id="86EA79AB-6E2D-BC3D-36BB-5A2D6DCC0DAF" version="3.5">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:16:07 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>86EA79AB-6E2D-BC3D-36BB-5A2D6DCC0DAF</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6DF738F7-9365-785B-450B-A04BA05DD029">
+<designStoragePath>C:\plusoft</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4A347D80-5A7C-820D-54A5-4F581B9CBBD2">
+<designStoragePath>C:\plusoft</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

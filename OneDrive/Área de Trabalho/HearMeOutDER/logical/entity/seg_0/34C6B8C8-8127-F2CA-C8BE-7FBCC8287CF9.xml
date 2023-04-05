@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34C6B8C8-8127-F2CA-C8BE-7FBCC8287CF9" name="mensagens">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>F1EFCF6A-5120-9773-BE9E-9BA0B15C8E45</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id mensagem" id="CFC84C3B-87C4-BAA5-ABB9-B19B50BADCA9">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>30CA7043-8E1E-22F6-0BFB-7326818269DD</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id conversa" id="B47574F5-D83E-71BA-20B1-18639D71B43F">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>399D19F9-5F8D-B564-0815-DFE017C3C27D</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<referedAttribute>5987AA4C-F13D-8E0F-29E3-9F5FE81AD96A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id usuario" id="84CBCE75-D7B7-13F2-B495-DB1FDDD0C6C4">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>B57B7100-13DE-DAF6-56F4-194232A568EB</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<referedAttribute>9BB972CA-4368-611C-CF99-9D84B87D4EBE</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conteudo" id="AD37F75E-0FA3-8E1B-7C66-A9B51F00822E">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>77A7D9B0-D2A1-B47D-CA2B-17316211C1A7</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>F2388431-6B8C-91A8-951C-B39B84584BB2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="6041438E-4F19-1A7D-9B2B-A1C4D0AB2CFC">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>E72CA7B2-2BEC-844A-264C-3D38C767556C</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A9AE827D-3C6A-DD49-0916-B21228CB9FC6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data envio" id="8DF273C9-1F60-3FAB-F70E-ED685093A39F">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>4F4EBBA5-7BB9-F9F8-592B-30F3DACBF366</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>2CF4BBF6-FAFD-0C93-B85A-6DC7F9ED3960</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0845AF3C-92B0-6054-712C-5BD163510395" name="mensagens PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>E4C31424-3C80-8F07-3960-91688F5CC579</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CFC84C3B-87C4-BAA5-ABB9-B19B50BADCA9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

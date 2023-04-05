@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="conversas" directorySegmentName="seg_0" id="30E63D2F-578D-DC17-A180-11EF9C8BBAA0">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_usuario1" id="02BF8590-1B2B-2863-8FC0-8858474561B5">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_usuario2" id="7A5D796F-D227-0003-2F61-D9D95D1C86C4">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_fim" id="AE6A622A-8960-F961-0E04-C79DC1165601">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_conversa" id="B3324C49-92CB-FB83-E038-643E3889C32E">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_inicio" id="E932E87A-5BF7-DB9B-5502-B32DCE4F4D87">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_id_usuario2" id="92ED2FAC-BAA1-1716-680A-F5A90CD7BFFF">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_id_usuario1" id="EC927FFD-3972-6239-DA83-F8722EF66458">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="conversas_PK" id="30139590-BF4E-024D-26A1-B69000878A5E">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:20:25 UTC</createdTime>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

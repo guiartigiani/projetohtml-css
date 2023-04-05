@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3F25CE7-B1EC-A153-B54E-B3F495417FB8" name="conversas">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>30E63D2F-578D-DC17-A180-11EF9C8BBAA0</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id conversa" id="5987AA4C-F13D-8E0F-29E3-9F5FE81AD96A">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>B3324C49-92CB-FB83-E038-643E3889C32E</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id usuario1" id="04066978-3FB4-E9BD-CE64-8BDA8DB199E1">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>22CC4806-CA70-D3B8-B54B-CF96D152947D</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<referedAttribute>9BB972CA-4368-611C-CF99-9D84B87D4EBE</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id usuario2" id="869E202F-1C21-C5F5-C9B2-58CDFF85B1D7">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>F83B82E8-856A-9412-F919-B58626260874</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<referedAttribute>9BB972CA-4368-611C-CF99-9D84B87D4EBE</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data inicio" id="DC7FBB4F-4F0A-C0FE-48B1-3E8D9CF5C638">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>E932E87A-5BF7-DB9B-5502-B32DCE4F4D87</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>2CF4BBF6-FAFD-0C93-B85A-6DC7F9ED3960</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data fim" id="EBF86576-0D98-0C41-F893-2990E97774B3">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>AE6A622A-8960-F961-0E04-C79DC1165601</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>2CF4BBF6-FAFD-0C93-B85A-6DC7F9ED3960</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AAA8AA87-4933-C979-DEA9-42CFAF7A3B71" name="conversas PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 13:27:20 UTC</createdTime>
+<generatorID>30139590-BF4E-024D-26A1-B69000878A5E</generatorID>
+<ownerDesignName>HearMeOutDER</ownerDesignName>
+<engineerTo>
+<item key="E8D7E7BB-D82A-08C7-DE02-8AB5C7086FA2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5987AA4C-F13D-8E0F-29E3-9F5FE81AD96A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
