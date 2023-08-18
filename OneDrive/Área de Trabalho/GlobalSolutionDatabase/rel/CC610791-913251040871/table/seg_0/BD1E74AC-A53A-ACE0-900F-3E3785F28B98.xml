@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD1E74AC-A53A-ACE0-900F-3E3785F28B98" name="TB_ITEM">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:13 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<importedID>255D81E9-5142-58B3-998A-C3F75E349F45</importedID>
+<ordsAlias>mensagens</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_item" id="9FEA577C-2DB8-57FB-9BAA-1D3172AE2D30">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<importedID>6BB5A0D5-F708-D025-C694-C5E4602D21BD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="nome_item" id="42397798-8F7C-04B6-7866-6B324B14667E">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<importedID>20EB4C72-F0CA-491D-6C4B-DC99E56A9C35</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DC107B1-5022-EE93-0B58-1678475DFCC3" name="item_PK">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<importedID>F0C00564-4543-877F-D4AD-AD510EF7AD8D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FEA577C-2DB8-57FB-9BAA-1D3172AE2D30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

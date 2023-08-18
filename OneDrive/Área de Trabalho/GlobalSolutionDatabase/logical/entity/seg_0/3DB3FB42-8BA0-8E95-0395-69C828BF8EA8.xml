@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DB3FB42-8BA0-8E95-0395-69C828BF8EA8" name="Cidades">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>1AA6E732-C077-387D-36F9-E4CFA3E709E3</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id cidade" id="D8EE7FCC-09B3-EEC4-DDA3-E8E1DE697B27">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>E5581DF0-4235-FEF0-7AE9-2019044B858A</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome cidade" id="D0C8E5FF-8245-F7F5-125D-0C762CA5CEBD">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>271BF0B8-0B71-A20E-2FF9-F2D93816A3E8</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado id estado" id="BC7102E3-F2CE-7DBF-1AE5-F937DEF05191">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>6E4BB5CC-1EEE-04E8-45E5-9A26FBA53241</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<referedAttribute>D31A340D-F197-A13A-972F-7C481415124C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C329CB48-F5CC-8C34-5354-C39794F08C48" name="Cidades PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>B6DB60B1-203E-E8E8-8B5C-2DE6A16DE027</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D8EE7FCC-09B3-EEC4-DDA3-E8E1DE697B27</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

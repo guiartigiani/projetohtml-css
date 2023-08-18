@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TB_DOADOR" directorySegmentName="seg_0" id="876EBE42-1EA6-0D1B-8EA4-D959A5F762D3">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:31:43 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TB_DOADOR_PK" id="1C4F4E40-BF33-1138-AF8C-CB51A16BD0DC">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:32:15 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

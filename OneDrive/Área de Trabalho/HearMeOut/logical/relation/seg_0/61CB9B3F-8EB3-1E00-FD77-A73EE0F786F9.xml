@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_id_conversav1" directorySegmentName="seg_0" id="61CB9B3F-8EB3-1E00-FD77-A73EE0F786F9">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>06AC8E66-17B2-818B-CB9D-701229D8767C</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<sourcePk>BC6B9A40-DCA2-54A2-6B2A-B37FE34BD8A2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>83B443B5-05F2-7608-0D44-226CEAC76AAB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>24D8D4B5-7102-D9A3-C1B0-4D10798E0547</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

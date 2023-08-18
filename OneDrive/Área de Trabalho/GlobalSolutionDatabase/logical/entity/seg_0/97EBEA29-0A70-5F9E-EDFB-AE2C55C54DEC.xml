@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97EBEA29-0A70-5F9E-EDFB-AE2C55C54DEC" name="TB DOADOR">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>876EBE42-1EA6-0D1B-8EA4-D959A5F762D3</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id doador" id="65CCDFB8-95C2-E62F-2213-54BED44AF7D6">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>223DBFD4-FACB-2CF5-00FA-EEEA6AAFF404</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BFE7458-EDD7-A20D-29D4-C33B70317291" name="TB DOADOR PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>1C4F4E40-BF33-1138-AF8C-CB51A16BD0DC</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65CCDFB8-95C2-E62F-2213-54BED44AF7D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

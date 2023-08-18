@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8462AC28-9AFA-795A-3D10-913E4D75FB58" name="Endereco_CEP">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:29:00 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_endereco" id="26AC0AED-E3A9-3D64-1932-1C29E90B10E1">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:36:16 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Enderecos_id_rua" id="929A264A-D38C-7418-41D5-6E31BCE028CA">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:35:11 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C674CF45-75CA-FC48-D790-B26ED9B87263" referredColumn="22480A86-9EA6-B1B2-BDC6-3AB4747008D8"/>
+</associations>
+</Column>
+<Column name="CEP_id_cep" id="8A56DAAE-F748-B7B7-41B9-899C6A8DD5B2">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 10:27:14 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2B750BF-8454-BE4E-960C-C429EDD058AB" referredColumn="1473C29D-7A22-E353-4B91-DAA572290B1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E483F13-38A2-FE2D-19EC-D6C1FAF2C899" name="Endereco_CEP_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:36:16 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26AC0AED-E3A9-3D64-1932-1C29E90B10E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC5C789D-853D-7C35-A354-93DA471155AB" name="Endereco_CEP_CEP_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:32:54 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A56DAAE-F748-B7B7-41B9-899C6A8DD5B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF82D0A6-7E8E-D100-597F-EBCEDAACFB7E" name="Endereco_CEP_Enderecos_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:35:11 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="929A264A-D38C-7418-41D5-6E31BCE028CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

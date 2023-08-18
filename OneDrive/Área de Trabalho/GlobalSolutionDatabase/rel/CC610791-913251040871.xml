@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="CC610791-D796-B288-F1D2-913251040871" mainViewID="E80BFE89-3D76-FF40-839F-6072FE13F1AB">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:24:12 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>plusoft.sql</fileName>
+<pathName>C:\Users\guilh\OneDrive\Área de Trabalho</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

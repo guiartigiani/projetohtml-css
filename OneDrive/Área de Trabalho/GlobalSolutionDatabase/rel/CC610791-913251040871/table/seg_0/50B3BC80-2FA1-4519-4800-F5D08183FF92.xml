@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50B3BC80-2FA1-4519-4800-F5D08183FF92" name="TB_DOADOR_PJ">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:12:22 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_doador_pj" id="38639724-819D-92B1-E08E-66EDFDD221F5">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:13:23 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AD81D82-163D-2432-5D1B-54944997ECD2" referredColumn="223DBFD4-FACB-2CF5-00FA-EEEA6AAFF404"/>
+</associations>
+</Column>
+<Column name="razao_social" id="B8D64341-77DC-F6D5-0DCE-5BA1D4C0CC23">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:13:23 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="74894C95-EDF4-BC66-6CDD-E46C0FAA3E5E">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:13:23 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_TELEFONE_id_telefone" id="2574E678-36B1-507A-8E39-A8BE2D607888">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:17:47 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6153A7D9-D3A8-8D72-9B89-23CD38DBB3FD" referredColumn="CE7606F1-1150-906F-AFD7-99374C4BA31A"/>
+</associations>
+</Column>
+<Column name="Endereco_CEP_id_endereco" id="CA5CD6BF-8A71-42AB-87BB-7E987A7169AC">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:22:16 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B92A7670-3FD3-5880-9C39-43D225D2B1DF" referredColumn="26AC0AED-E3A9-3D64-1932-1C29E90B10E1"/>
+</associations>
+</Column>
+<Column name="email" id="B55372A4-EB51-CA7C-A48E-38F5881C2288">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:30:33 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2910B656-4E65-BA76-DAA0-31C3677E0989" name="TB_DOADOR_PJ_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:13:33 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38639724-819D-92B1-E08E-66EDFDD221F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91D45C6F-32D5-FEE9-975F-3510CDFED58D" name="TB_DOADOR_PJ__UN">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:26:23 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74894C95-EDF4-BC66-6CDD-E46C0FAA3E5E"/>
+<colUsage columnID="B55372A4-EB51-CA7C-A48E-38F5881C2288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B28F358B-BDC5-5CEC-4E5B-5A4336155E1A" name="TB_DOADOR_PJ__IDX">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:44:42 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B55372A4-EB51-CA7C-A48E-38F5881C2288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="247DED18-AE36-8E09-2D85-8A412620774B" name="TB_DOADOR_PJ_TB_TELEFONE_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:17:47 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2574E678-36B1-507A-8E39-A8BE2D607888"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A0B9739-742E-92B5-64C8-49588F86A1F8" name="TB_DOADOR_PJ_Endereco_CEP_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:22:16 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA5CD6BF-8A71-42AB-87BB-7E987A7169AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60406FB3-54DC-8C08-E7FB-204C13C93040" name="TB_DOADOR_PJ_TB_DOADOR_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:22:23 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38639724-819D-92B1-E08E-66EDFDD221F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

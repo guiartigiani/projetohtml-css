@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A88F6454-892D-ADA2-9C74-8AF9B586EFD2" name="usuarios pj">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>476DAA93-5E51-E3A4-72F3-EC2E3DBFC006</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id usuario" id="94E0B7ED-F560-60AF-466C-8EB898ADAB45">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>32D6393A-31F4-1099-DA3A-ED7CDC44DB6E</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<referedAttribute>82223886-18BA-8267-C148-DBB011964586</referedAttribute>
+<use>0</use>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="31E6F62B-8DB6-3170-F36A-5626267C9E5F">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>13E22271-2FD7-AB69-3A10-6807E62452E1</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>9C9770AE-0FD1-723E-C5FD-9E9F6074080C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razao social" id="5CF157B0-1C8E-E882-89DD-993898C917CB">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>7E57ADF4-33F7-FBE0-8CBD-C5D39E579220</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>36AA17C7-862E-97B8-0AB4-0262D4D0A117</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id endereco" id="60EEC149-F975-1C92-E03D-82731E5D0207">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>F88F5F1F-66AA-63ED-23DD-997D6DF6908C</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<referedAttribute>A80305A8-F52F-9284-D37C-795527144C62</referedAttribute>
+<use>0</use>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5792C900-5419-FB4F-9DD5-F58B7F9C8DEA" name="usuarios pj PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>170A82DF-1ADD-22CD-1403-F0C8BD18FAE1</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94E0B7ED-F560-60AF-466C-8EB898ADAB45</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C009D0F6-4B18-B791-1CAF-69C1ACF8DC52" name="INDEX 1v2">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>5438F1D2-80BA-2EC6-BBDD-42493B16B4DA</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>31E6F62B-8DB6-3170-F36A-5626267C9E5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

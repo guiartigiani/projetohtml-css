@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TB_DOADOR_PJ" directorySegmentName="seg_0" id="50B3BC80-2FA1-4519-4800-F5D08183FF92">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:12:22 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TB_TELEFONE_id_telefone" id="2574E678-36B1-507A-8E39-A8BE2D607888">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:17:47 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_doador_pj" id="38639724-819D-92B1-E08E-66EDFDD221F5">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:13:23 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cnpj" id="74894C95-EDF4-BC66-6CDD-E46C0FAA3E5E">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:13:23 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="B55372A4-EB51-CA7C-A48E-38F5881C2288">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:30:33 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="razao_social" id="B8D64341-77DC-F6D5-0DCE-5BA1D4C0CC23">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:13:23 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Endereco_CEP_id_endereco" id="CA5CD6BF-8A71-42AB-87BB-7E987A7169AC">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:22:16 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TB_DOADOR_PJ__IDX" id="B28F358B-BDC5-5CEC-4E5B-5A4336155E1A">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:44:42 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_DOADOR_PJ_Endereco_CEP_FK" id="1A0B9739-742E-92B5-64C8-49588F86A1F8">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:22:16 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_DOADOR_PJ_TB_TELEFONE_FK" id="247DED18-AE36-8E09-2D85-8A412620774B">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:17:47 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_DOADOR_PJ_TB_DOADOR_FK" id="60406FB3-54DC-8C08-E7FB-204C13C93040">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:22:23 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TB_DOADOR_PJ_PK" id="2910B656-4E65-BA76-DAA0-31C3677E0989">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:13:33 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="TB_DOADOR_PJ__UN" id="91D45C6F-32D5-FEE9-975F-3510CDFED58D">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:26:23 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

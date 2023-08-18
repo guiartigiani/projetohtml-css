@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9C5A88C-AD7E-3C44-85EE-9290F8CF80E1" name="Enderecos">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>D0DE1D5C-4872-818F-F1BF-A8E81C8D90EB</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id rua" id="AEF53B4A-4561-F1C9-2A59-3166F82B56C8">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>22480A86-9EA6-B1B2-BDC6-3AB4747008D8</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="36A0099D-E22A-B077-8268-406B9FFCCEAA">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>D513E089-EAB0-8613-4FA2-397C1410B55E</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A37F5E4A-BEA5-3524-52E7-C01C94F79705</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="85275101-44C4-7622-A137-E8C1E4B60958">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>AFFD811D-6DCB-D38D-EA92-C97C1A106F9C</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome rua" id="0F5E69CE-AA11-61F2-5A3D-DF0863DF17FA">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>010DD5B9-E3A2-F271-EB7A-CD1B5BED7CF6</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bairros id bairro" id="1D9CB8DA-D6BB-EFB6-588E-02F51A355774">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>E956EB2D-E751-1B42-3E9E-26B82C5AB3E0</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<referedAttribute>5519B435-580C-1943-2462-4B841B75DF68</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B415745-F140-1454-C02A-E26B204BBA1C" name="Enderecos PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>ED31CE0A-C7F4-2930-E1B8-CDFC1EC43AF9</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AEF53B4A-4561-F1C9-2A59-3166F82B56C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8EB734F-0868-0ABD-EAA4-4267C7D562FD" name="interacoes chatgptv1">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>C2E5343B-1EE3-B73F-CDF1-C27E9E503569</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id interacao" id="FE80367E-CE5D-B9DE-BA11-262528A69413">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>DBD38EB6-031E-5967-C2F4-C88DBC7986B7</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id usuario" id="8AC9C1D1-AD34-1202-A6E8-3F5A82CFE4D8">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>5546416F-DE9F-010F-26C5-F15A1EAA79CB</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pergunta" id="3292D771-1E0D-F421-890E-41C51641B619">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>A7EBDAFE-B35C-76EB-C7BD-106C36F3B446</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>F2388431-6B8C-91A8-951C-B39B84584BB2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resposta" id="B1408A35-1CB4-791A-49C3-F89D36BFFF0A">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>DDC303BC-601A-22A8-1C5A-990C48C63605</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>F2388431-6B8C-91A8-951C-B39B84584BB2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EFA318C5-ADC6-41ED-F56F-E79A0D5213F1" name="interacoes chatgpt PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>282B5C06-9935-16FE-1F08-E7CCB269FD1C</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE80367E-CE5D-B9DE-BA11-262528A69413</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

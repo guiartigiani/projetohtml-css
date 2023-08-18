@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="077A6788-BFBA-AD20-0763-B066FA610B34" name="enderecos">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>966994DA-DD87-EE3B-31B8-E496AF7F4E58</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id endereco" id="A80305A8-F52F-9284-D37C-795527144C62">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>E823C5CC-29EC-E42A-3BD7-E3FC3FC8E5F5</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rua" id="7D58FD8C-0E48-89C7-8A3A-38ABD3F97220">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>1CCEED81-4E7B-7AE1-F7AC-113AD3F5AF80</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>36AA17C7-862E-97B8-0AB4-0262D4D0A117</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="106675E0-A48F-7527-333C-5FACCD53C8E8">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>8723AB78-683E-8E82-ADF3-1BC04531F116</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>A7C05552-6BC8-ECF6-CBCA-F589B031C1F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="D433E8AB-F92A-02A1-D1D2-28283C3CCC36">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>4FB05DEA-1E55-3E92-776E-DF1CB62AE966</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>36AA17C7-862E-97B8-0AB4-0262D4D0A117</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="42203D14-EB0E-C9C2-05BC-F37F30D8BD73">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>EDAF054B-3127-E611-5A1D-1887B1168329</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>36AA17C7-862E-97B8-0AB4-0262D4D0A117</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="DF5EB249-5BBF-BB02-590C-4A88A917F2C1">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>71BD4543-A034-F451-3CE8-63690E5A7400</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>36AA17C7-862E-97B8-0AB4-0262D4D0A117</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="B5E36AB4-09D3-791C-3652-645B4EF548F8">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>BF53861C-2302-19B8-86FE-2AD46C32870C</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>0D84F068-50D7-BF1F-E4E1-D2ECF3322223</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="02CEADA2-7A95-608B-10EB-93B78F2C5F73">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>26956DAF-8428-9CD3-48AC-92FC2D2B3203</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>81D5B4B0-FB0B-6541-0D51-14CFC19AA1BD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCD04B18-ABA8-7115-65D5-BB7F32B8488D" name="enderecos PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>F017D67E-6998-952E-AB21-479CD4E031B1</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A80305A8-F52F-9284-D37C-795527144C62</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

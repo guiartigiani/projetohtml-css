@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0DE1D5C-4872-818F-F1BF-A8E81C8D90EB" name="Enderecos">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:30:41 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rua" id="22480A86-9EA6-B1B2-BDC6-3AB4747008D8">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:31:42 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="D513E089-EAB0-8613-4FA2-397C1410B55E">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:31:42 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A37F5E4A-BEA5-3524-52E7-C01C94F79705</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="AFFD811D-6DCB-D38D-EA92-C97C1A106F9C">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:31:42 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_rua" id="010DD5B9-E3A2-F271-EB7A-CD1B5BED7CF6">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:31:42 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bairros_id_bairro" id="2A33E714-F77D-9443-C4FC-1F72BC8B54DA">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:34:26 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB887CFC-D13D-A3D6-B97A-F24A04832254" referredColumn="0275E14C-6B51-21B3-EF0D-F385AED10BC2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED31CE0A-C7F4-2930-E1B8-CDFC1EC43AF9" name="Enderecos_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:31:45 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22480A86-9EA6-B1B2-BDC6-3AB4747008D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DC11551-0F17-7482-8416-39689B13FB38" name="Enderecos_Bairros_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:34:26 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A33E714-F77D-9443-C4FC-1F72BC8B54DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

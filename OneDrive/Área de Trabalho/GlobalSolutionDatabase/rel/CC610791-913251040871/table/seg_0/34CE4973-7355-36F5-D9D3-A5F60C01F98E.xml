@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34CE4973-7355-36F5-D9D3-A5F60C01F98E" name="TB_DOACAO">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 10:39:45 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<ordsAlias>ponto_doacao_1</ordsAlias>
+<splittedTableID>AF93E2F4-0344-E2AC-A29C-6EEBAD6714A9</splittedTableID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_doacao" id="3ACBC7C0-07D1-2769-6405-0F50C9105003">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<importedID>BB40E3C2-A276-D992-526E-21E8778F0934</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="qtd_item" id="1A9C9C9E-1606-B354-2E6B-362CD8A94EC4">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<importedID>A9D1DCF7-B4FD-1E0E-B4DD-5D2F41865623</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A37F5E4A-BEA5-3524-52E7-C01C94F79705</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_ITEM_id_item" id="43809CFD-899E-0E4D-51C5-33B30A61B8F7">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:13:49 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C20B0EBF-78AF-83EE-A770-AE68351C3A4E" referredColumn="9FEA577C-2DB8-57FB-9BAA-1D3172AE2D30"/>
+</associations>
+</Column>
+<Column name="data_doacao" id="131ADC06-B16C-1DA5-25CE-53C70CF77E7C">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:32:34 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>08E6AD74-8E45-E125-18F1-A47D174D9D35</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ponto_doacao_id_ponto" id="1D83FE40-3B18-7DAF-8C33-1E103CF7CA19">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:57:16 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91F2790E-6AA0-2BC1-2862-9AD82AF0B97A" referredColumn="0EE82F40-A268-78A1-9E55-123DD4BDDADD"/>
+</associations>
+</Column>
+<Column name="TB_DOADOR_id_doador" id="47AFD400-4714-53FF-12B5-8D3ACC2CC508">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:58:55 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D917CA2-BA68-B599-B9E6-2A849B568F5E" referredColumn="223DBFD4-FACB-2CF5-00FA-EEEA6AAFF404"/>
+</associations>
+</Column>
+<Column name="TB_DOADOR_id_doador1" id="59CBBE16-E31D-009E-61D3-96BFBAF091B3">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:02:28 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABF0B5A9-9C7A-5B5E-231D-7A675F12A2EB" referredColumn="223DBFD4-FACB-2CF5-00FA-EEEA6AAFF404"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9942317-F528-5D26-4D19-F278B187F015" name="tb_doacao_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 10:39:45 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ACBC7C0-07D1-2769-6405-0F50C9105003"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16DB4A89-2A15-771F-7F38-07857975CB9F" name="TB_DOACAO_TB_ITEM_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:13:49 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43809CFD-899E-0E4D-51C5-33B30A61B8F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F09B43A0-9BE4-6E70-010B-D9C5540B0E56" name="TB_DOACAO_ponto_doacao_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:57:16 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D83FE40-3B18-7DAF-8C33-1E103CF7CA19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="920732EA-F7F8-27FD-39F0-ED0B028C1984" name="TB_DOACAO_TB_DOADOR_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:58:55 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47AFD400-4714-53FF-12B5-8D3ACC2CC508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B1BBAB4-51FA-458C-7838-C0140F3B767C" name="TB_DOACAO_TB_DOADOR_FKv2">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:02:28 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59CBBE16-E31D-009E-61D3-96BFBAF091B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

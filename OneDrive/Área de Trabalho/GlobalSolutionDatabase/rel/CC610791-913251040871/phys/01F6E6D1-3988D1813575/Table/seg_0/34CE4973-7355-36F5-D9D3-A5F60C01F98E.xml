@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TB_DOACAO" directorySegmentName="seg_0" id="34CE4973-7355-36F5-D9D3-A5F60C01F98E">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 10:39:45 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="data_doacao" id="131ADC06-B16C-1DA5-25CE-53C70CF77E7C">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:32:34 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qtd_item" id="1A9C9C9E-1606-B354-2E6B-362CD8A94EC4">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ponto_doacao_id_ponto" id="1D83FE40-3B18-7DAF-8C33-1E103CF7CA19">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:57:16 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_doacao" id="3ACBC7C0-07D1-2769-6405-0F50C9105003">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TB_ITEM_id_item" id="43809CFD-899E-0E4D-51C5-33B30A61B8F7">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TB_DOADOR_id_doador" id="47AFD400-4714-53FF-12B5-8D3ACC2CC508">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:58:55 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TB_DOADOR_id_doador1" id="59CBBE16-E31D-009E-61D3-96BFBAF091B3">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:02:28 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_DOACAO_TB_ITEM_FK" id="16DB4A89-2A15-771F-7F38-07857975CB9F">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_DOACAO_TB_DOADOR_FK" id="920732EA-F7F8-27FD-39F0-ED0B028C1984">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:58:55 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_DOACAO_TB_DOADOR_FKv2" id="9B1BBAB4-51FA-458C-7838-C0140F3B767C">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:02:28 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_DOACAO_ponto_doacao_FK" id="F09B43A0-9BE4-6E70-010B-D9C5540B0E56">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:57:16 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="tb_doacao_PK" id="F9942317-F528-5D26-4D19-F278B187F015">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 10:39:45 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

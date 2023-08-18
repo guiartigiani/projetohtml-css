@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD1DDA42-9576-B399-66BB-39F37253A141" name="Bairros">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>FA33CD36-CE10-D7A9-51A1-8FACC4689127</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id bairro" id="5519B435-580C-1943-2462-4B841B75DF68">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>0275E14C-6B51-21B3-EF0D-F385AED10BC2</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome bairro" id="9F6C55C4-6118-BAE4-625E-5D848A08BE55">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>934528F4-B851-8BEC-C771-354114EA5A3B</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cidades id cidade" id="EDD1A350-13E8-3AEC-5FD5-1316721128EB">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>7DA2B25E-004B-FDF8-8814-579482E11B43</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<referedAttribute>D8EE7FCC-09B3-EEC4-DDA3-E8E1DE697B27</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2EB8E8E-9CC9-4EE8-3C9F-20A341709345" name="Bairros PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>7834159F-F503-9E5F-F28F-3620B9FD9E8A</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5519B435-580C-1943-2462-4B841B75DF68</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

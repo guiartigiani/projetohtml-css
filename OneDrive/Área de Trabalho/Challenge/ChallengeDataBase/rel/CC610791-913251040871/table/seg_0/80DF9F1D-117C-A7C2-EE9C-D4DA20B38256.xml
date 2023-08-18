@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80DF9F1D-117C-A7C2-EE9C-D4DA20B38256" name="CEP">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:29:19 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_cep" id="9586DFA2-4434-BCAD-FE32-EC1C60C18C7D">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:29:29 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cep" id="1473C29D-7A22-E353-4B91-DAA572290B1F">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 10:27:10 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="075035E9-C6A3-6DE5-982F-E557EB6685E1" name="CEP_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:29:42 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1473C29D-7A22-E353-4B91-DAA572290B1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

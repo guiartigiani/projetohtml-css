@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TB_TELEFONE" directorySegmentName="seg_0" id="885E1AF4-F0DA-587C-5798-9A72E01808E3">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:14:04 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="tipo_telefone" id="82E7F9AD-6D43-774F-2153-4DB058419C62">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:16:58 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="numero_telefone" id="8F1610A8-0382-6381-E0C9-442942535222">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:16:58 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_telefone" id="CE7606F1-1150-906F-AFD7-99374C4BA31A">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:16:58 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TB_TELEFONE_PK" id="D7C17104-C84F-5EE4-C3C7-BFD3BC5513C0">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:16:58 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

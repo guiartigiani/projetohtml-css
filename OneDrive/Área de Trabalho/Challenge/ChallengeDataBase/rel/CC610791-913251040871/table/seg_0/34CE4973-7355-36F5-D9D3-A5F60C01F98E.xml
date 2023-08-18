@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34CE4973-7355-36F5-D9D3-A5F60C01F98E" name="TB_DOACAO">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 10:39:45 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<ordsAlias>ponto_doacao_1</ordsAlias>
+<splittedTableID>AF93E2F4-0344-E2AC-A29C-6EEBAD6714A9</splittedTableID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_doacao" id="3ACBC7C0-07D1-2769-6405-0F50C9105003">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>BB40E3C2-A276-D992-526E-21E8778F0934</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="id_ponto" id="55F17C90-EF51-E131-5B2F-E7766A2AA64C">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 10:39:45 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<use>0</use>
+<domain>BC9D9793-4864-37C5-719C-09CB22799329</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_item" id="AA3FC748-4BA5-5094-3D82-413103C781AC">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>B5D35A95-EEEE-605F-6134-B24D2ED560A8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<domain>DFE0DFCD-846C-3327-C535-E3511B033B0F</domain>
+<listOfValues>
+<valueDef value="F" description=""/>
+<valueDef value="J" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_item" id="1A9C9C9E-1606-B354-2E6B-362CD8A94EC4">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>A9D1DCF7-B4FD-1E0E-B4DD-5D2F41865623</importedID>
+<use>0</use>
+<domain>E19A73A1-129E-674B-FC98-B2DD4224FC20</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9942317-F528-5D26-4D19-F278B187F015" name="tb_doacao_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 10:39:45 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ACBC7C0-07D1-2769-6405-0F50C9105003"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

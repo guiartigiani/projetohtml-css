@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Bairros_Cidades_FK" directorySegmentName="seg_0" id="7DA2B25E-004B-FDF8-8814-579482E11B43">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>5A7385A3-70E7-AA4E-50AA-14C41386C2D9</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<sourcePk>C329CB48-F5CC-8C34-5354-C39794F08C48</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3DB3FB42-8BA0-8E95-0395-69C828BF8EA8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD1DDA42-9576-B399-66BB-39F37253A141</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

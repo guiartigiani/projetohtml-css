@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="checkpoint_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="21064E96-18E3-2163-CA31-0CCEA7DDC725">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-06 20:13:00 UTC</createdTime>
+<ownerDesignName>MODELOBANCO</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>checkpoint_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="8D8F94FA-8623-811D-5C83-7D0FFDDD1D3D">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-06 20:13:00 UTC</createdTime>
+<ownerDesignName>MODELOBANCO</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>checkpoint_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_2" id="A0B8C109-4379-4D8E-F193-7881C8443830">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-06 20:13:00 UTC</createdTime>
+<ownerDesignName>MODELOBANCO</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>2</dataTypeSize>
+<fileName>checkpoint_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_8" id="A5453B09-6970-B848-3702-715B420674F0">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-06 20:13:00 UTC</createdTime>
+<ownerDesignName>MODELOBANCO</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>8</dataTypeSize>
+<fileName>checkpoint_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="AF27BE77-22B8-6B3C-8F3D-7ED653CE7FCB">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-06 20:13:00 UTC</createdTime>
+<ownerDesignName>MODELOBANCO</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>checkpoint_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DECIMAL_10_2_0" id="BA47B78B-0DBD-59D6-7A92-D0EE569E3A37">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-06 20:13:00 UTC</createdTime>
+<ownerDesignName>MODELOBANCO</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>checkpoint_Domains</fileName>
+<logicalDatatype>LOGDT026</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="FCF957DE-F553-4F43-571B-7EA335C77718">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-06 20:13:00 UTC</createdTime>
+<ownerDesignName>MODELOBANCO</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>checkpoint_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

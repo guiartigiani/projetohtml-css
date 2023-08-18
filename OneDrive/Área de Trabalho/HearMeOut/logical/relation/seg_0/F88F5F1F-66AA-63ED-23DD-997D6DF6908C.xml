@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="usuarios_pj_enderecos_FK" directorySegmentName="seg_0" id="F88F5F1F-66AA-63ED-23DD-997D6DF6908C">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>1E126E44-59E5-9C04-8D69-DABA58C6907D</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<sourcePk>DCD04B18-ABA8-7115-65D5-BB7F32B8488D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>077A6788-BFBA-AD20-0763-B066FA610B34</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A88F6454-892D-ADA2-9C74-8AF9B586EFD2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

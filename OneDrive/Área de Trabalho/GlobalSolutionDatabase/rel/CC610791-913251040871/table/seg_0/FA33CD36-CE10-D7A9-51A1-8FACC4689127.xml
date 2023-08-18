@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA33CD36-CE10-D7A9-51A1-8FACC4689127" name="Bairros">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:26:35 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_bairro" id="0275E14C-6B51-21B3-EF0D-F385AED10BC2">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:27:29 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_bairro" id="934528F4-B851-8BEC-C771-354114EA5A3B">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:27:29 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cidades_id_cidade" id="608007BB-0D6B-6E85-7468-9DA22C888EEA">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:34:11 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A7385A3-70E7-AA4E-50AA-14C41386C2D9" referredColumn="E5581DF0-4235-FEF0-7AE9-2019044B858A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7834159F-F503-9E5F-F28F-3620B9FD9E8A" name="Bairros_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:29:56 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0275E14C-6B51-21B3-EF0D-F385AED10BC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4AC5BB6-0755-6A49-805C-8566E0D5AD64" name="Bairros__IDX">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:11:07 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0275E14C-6B51-21B3-EF0D-F385AED10BC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90D8051A-9A20-A09F-C033-E4A9111E64E0" name="Bairros_Cidades_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:34:11 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="608007BB-0D6B-6E85-7468-9DA22C888EEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

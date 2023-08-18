@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF93E2F4-0344-E2AC-A29C-6EEBAD6714A9" name="ponto_doacao">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:13 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<importedID>C5D91C51-C297-5E7A-E83E-6C773D4BFD78</importedID>
+<ordsAlias>usuarios_pj</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ponto" id="0EE82F40-A268-78A1-9E55-123DD4BDDADD">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<importedID>0B85409B-1A7A-7898-AF69-3015C2649EEB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+<dependOnForeignKeyID>CAF55E08-E173-8AED-91FF-7CFFCC29E011</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="cnpj" id="2E54F1D7-3112-347D-2369-26829C22E66F">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<importedID>3CB02382-4551-C84D-5B6C-4E01F56759F6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razao_social" id="B6095A61-EF14-B9BB-EF4F-DAC0FBF5D460">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<importedID>8728D0CA-8C9C-EE06-C032-DEED3B1754E2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco_CEP_id_endereco" id="D739F1FB-BFD1-62E2-00F5-870703D0673E">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:15:14 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<dependOnForeignKeyID>C7662450-1644-7A65-620C-CE1670B5B4FC</dependOnForeignKeyID>
+<associations>
+<colAssociation fkAssociation="31E9D102-3404-F933-548C-4D4A3212C177" referredColumn="26AC0AED-E3A9-3D64-1932-1C29E90B10E1"/>
+</associations>
+</Column>
+<Column name="email" id="883532E1-4080-AF8D-C46F-2DCEC7F60D85">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:31:09 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF428DD7-DE39-A05B-6E42-47DB6312CA33" name="ponto_doacao_PK">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<importedID>03E75010-F42D-6F43-7B1A-55DD7D7F866C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EE82F40-A268-78A1-9E55-123DD4BDDADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACDD3981-EC0A-9BAB-3ADD-24EECA56B483" name="ponto_doacao__UN">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:29:06 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E54F1D7-3112-347D-2369-26829C22E66F"/>
+<colUsage columnID="883532E1-4080-AF8D-C46F-2DCEC7F60D85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD7D79D8-01D5-E816-C64C-58A688F15994" name="ponto_doacao_Endereco_CEP_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:15:14 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D739F1FB-BFD1-62E2-00F5-870703D0673E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

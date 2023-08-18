@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="usuarios_pf" directorySegmentName="seg_0" id="6366B7BE-9D65-4E5A-9B0B-C81DBEBA2059">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:13 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_endereco" id="25889D97-E85A-5A9F-6A7F-014AAF42EDC4">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rg" id="8C716CEB-FD5E-A383-3D63-355E6467A49B">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cpf" id="94AB69EA-6CAD-7644-004B-AE87174CDBDD">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_usuario_pf" id="D95A1AC0-BB6D-CEDC-D834-6F4BB0F6FA30">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="usuarios_pf_PK" id="D759BD46-3F42-7C7E-38E9-C3C9AD7F785D">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="INDEX_1" id="5DF0719C-0CBD-464F-1532-CC94B6DC5259">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<nameChanged>true</nameChanged>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

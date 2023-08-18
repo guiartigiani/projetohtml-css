@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FB18626-8213-4A75-1C6F-0A69783A6E96" name="TB DOADOR PF">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>3C00C4E8-F8D3-0903-7295-E8C362175FED</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id doador pf" id="AEB3FCDD-A6EE-A9BC-3731-E41B81F9D7B0">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>8AAB3FF9-A267-7A51-442F-9FDCDBEB03FC</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<referedAttribute>65CCDFB8-95C2-E62F-2213-54BED44AF7D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="25DC4CA7-2B01-2725-3B9B-84D566A30BC6">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>7679438E-4AAB-DB71-A1BB-DAEE3567636A</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="17075CE0-DFBA-71A4-1680-2358EC7EE469">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>AD99D8A6-6464-5198-BC58-0B7E4BC81E05</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TB TELEFONE id telefone" id="6DA1395C-7383-7F34-0584-1C8B06E9D26C">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>FF47B959-C21C-7946-43C1-83345BA17213</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<referedAttribute>ADB213B4-1BB9-1181-3E5D-1AC882749CF4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereco CEP id endereco" id="2F8C2BE4-CEFF-DBDD-EA84-F4A80457FF34">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>5169F1B1-5984-8A6A-B632-59222243948E</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<referedAttribute>134C06FF-0FB9-6CED-3031-2DF59B4F5D44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="DF6BB3C0-D3E4-22A1-8167-4C75CD477044">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>31FD9E0E-CABF-6389-11EA-68F6E1B5CB10</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5019CB0C-B758-3D2B-6437-3F654701FC35" name="TB DOADOR PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>CEC3B173-CC25-DBD0-F92E-00564B93CCEF</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AEB3FCDD-A6EE-A9BC-3731-E41B81F9D7B0</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="10D3A51E-985E-E36E-B555-40A8F9DCC015" name="TB DOADOR PF  UN">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>F838EF34-C45B-15D7-9BD2-D7860B43DDA5</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>17075CE0-DFBA-71A4-1680-2358EC7EE469</attributeRef>
+<attributeRef>DF6BB3C0-D3E4-22A1-8167-4C75CD477044</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

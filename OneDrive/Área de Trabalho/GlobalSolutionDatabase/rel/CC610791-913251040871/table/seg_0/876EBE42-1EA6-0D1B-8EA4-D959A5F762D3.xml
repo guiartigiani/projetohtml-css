@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="876EBE42-1EA6-0D1B-8EA4-D959A5F762D3" name="TB_DOADOR">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:31:43 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_doador" id="223DBFD4-FACB-2CF5-00FA-EEEA6AAFF404">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:32:15 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C4F4E40-BF33-1138-AF8C-CB51A16BD0DC" name="TB_DOADOR_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:32:15 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="223DBFD4-FACB-2CF5-00FA-EEEA6AAFF404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

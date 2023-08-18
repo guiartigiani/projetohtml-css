@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GlobalSolutionDatabase" id="7A205265-F6C6-131C-0B9D-359646F15A61" version="3.5">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:24:09 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7A205265-F6C6-131C-0B9D-359646F15A61</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BE54EEE2-2165-4CCC-A264-4FBC3750BBDD">
+<designStoragePath>C:\plusoft</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

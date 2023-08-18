@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Enderecos" directorySegmentName="seg_0" id="D0DE1D5C-4872-818F-F1BF-A8E81C8D90EB">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nome_rua" id="010DD5B9-E3A2-F271-EB7A-CD1B5BED7CF6">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_rua" id="22480A86-9EA6-B1B2-BDC6-3AB4747008D8">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Bairros_id_bairro" id="2A33E714-F77D-9443-C4FC-1F72BC8B54DA">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="complemento" id="AFFD811D-6DCB-D38D-EA92-C97C1A106F9C">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="numero" id="D513E089-EAB0-8613-4FA2-397C1410B55E">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Enderecos_Bairros_FK" id="1DC11551-0F17-7482-8416-39689B13FB38">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Enderecos_PK" id="ED31CE0A-C7F4-2930-E1B8-CDFC1EC43AF9">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

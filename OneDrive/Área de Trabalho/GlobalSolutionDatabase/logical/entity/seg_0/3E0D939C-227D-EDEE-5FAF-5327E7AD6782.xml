@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E0D939C-227D-EDEE-5FAF-5327E7AD6782" name="TB ITEM">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:29:55 UTC</createdTime>
+<generatorID>BD1E74AC-A53A-ACE0-900F-3E3785F28B98</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id item" id="8E1133E5-F3B7-F243-C9DA-C55B29037B7D">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:29:55 UTC</createdTime>
+<generatorID>9FEA577C-2DB8-57FB-9BAA-1D3172AE2D30</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conteudo" id="49C510ED-37DA-C02F-5229-FC70C53DE93F">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:29:55 UTC</createdTime>
+<generatorID>B96680FD-C5B6-7FDC-C2AE-86BB679DFF58</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="F6F74BAE-D1BD-A8D9-6679-35879794A17A">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:29:55 UTC</createdTime>
+<generatorID>C3417B03-8A89-25AA-17F9-EEE2351908BB</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>69918238-37EA-DEA1-6104-2EF93294A09F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data envio" id="7326E634-3088-6371-6C6E-6E94B44693E3">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:29:55 UTC</createdTime>
+<generatorID>D5F57E5A-4803-142C-16DD-715E3A509BE8</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>463BE8D1-C650-56DE-928E-743B3D5DA3B2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome item" id="2F6201BD-D6F8-36C8-D789-6FF01225DDBF">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:43:31 UTC</createdTime>
+<generatorID>42397798-8F7C-04B6-7866-6B324B14667E</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5D7DB59-03A5-8A75-95F6-3C9B7CF817A4" name="item_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:29:55 UTC</createdTime>
+<generatorID>7DC107B1-5022-EE93-0B58-1678475DFCC3</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E1133E5-F3B7-F243-C9DA-C55B29037B7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

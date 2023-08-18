@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TB_DOADOR_PF_TB_DOADOR_FK" directorySegmentName="seg_0" id="8AAB3FF9-A267-7A51-442F-9FDCDBEB03FC">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:31:34 UTC</createdTime>
+<generatorID>650B876B-0EB3-0C59-6B6C-C793E9C5FC80</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<sourcePk>5BFE7458-EDD7-A20D-29D4-C33B70317291</sourcePk>
+<dominantRole>97EBEA29-0A70-5F9E-EDFB-AE2C55C54DEC</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>97EBEA29-0A70-5F9E-EDFB-AE2C55C54DEC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1FB18626-8213-4A75-1C6F-0A69783A6E96</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="387BB624-11F3-CD48-6ED9-16AEC5A12A22" name="TB TELEFONE">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>885E1AF4-F0DA-587C-5798-9A72E01808E3</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id telefone" id="ADB213B4-1BB9-1181-3E5D-1AC882749CF4">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>CE7606F1-1150-906F-AFD7-99374C4BA31A</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo telefone" id="E5FEF9FF-FC2A-04B4-1475-29D04191407F">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>82E7F9AD-6D43-774F-2153-4DB058419C62</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero telefone" id="C715BBE7-7421-535A-3327-360C10B1E68C">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>8F1610A8-0382-6381-E0C9-442942535222</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2AED696B-37F3-6F7F-0C7C-549F864D47AD" name="TB TELEFONE PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:35:41 UTC</createdTime>
+<generatorID>D7C17104-C84F-5EE4-C3C7-BFD3BC5513C0</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ADB213B4-1BB9-1181-3E5D-1AC882749CF4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

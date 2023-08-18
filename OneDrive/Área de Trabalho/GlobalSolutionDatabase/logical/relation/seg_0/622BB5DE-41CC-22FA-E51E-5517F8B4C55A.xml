@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TB_DOACAO_ponto_doacao_FK" directorySegmentName="seg_0" id="622BB5DE-41CC-22FA-E51E-5517F8B4C55A">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:16:32 UTC</createdTime>
+<generatorID>91F2790E-6AA0-2BC1-2862-9AD82AF0B97A</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<sourcePk>0C03E087-5635-9D02-9F8F-061F383EF220</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>86BC7F13-54E8-84F7-DFF2-B4D51D3E30FD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B969F45C-B2AE-7598-EF5A-92B81CE764CC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

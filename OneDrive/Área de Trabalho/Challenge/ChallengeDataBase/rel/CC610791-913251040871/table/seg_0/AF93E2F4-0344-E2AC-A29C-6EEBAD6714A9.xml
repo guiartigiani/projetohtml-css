@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF93E2F4-0344-E2AC-A29C-6EEBAD6714A9" name="ponto_doacao">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:13 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>C5D91C51-C297-5E7A-E83E-6C773D4BFD78</importedID>
+<ordsAlias>usuarios_pj</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ponto" id="0EE82F40-A268-78A1-9E55-123DD4BDDADD">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>0B85409B-1A7A-7898-AF69-3015C2649EEB</importedID>
+<use>0</use>
+<domain>BC9D9793-4864-37C5-719C-09CB22799329</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+<dependOnForeignKeyID>CAF55E08-E173-8AED-91FF-7CFFCC29E011</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="cnpj" id="2E54F1D7-3112-347D-2369-26829C22E66F">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>3CB02382-4551-C84D-5B6C-4E01F56759F6</importedID>
+<use>0</use>
+<domain>ADC1125B-0D1D-D755-12BE-0692194320EE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razao_social" id="B6095A61-EF14-B9BB-EF4F-DAC0FBF5D460">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>8728D0CA-8C9C-EE06-C032-DEED3B1754E2</importedID>
+<use>0</use>
+<domain>E19A73A1-129E-674B-FC98-B2DD4224FC20</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_endereco" id="90CC4B2E-746C-71B9-9D4D-D10F31796DFF">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>75CB4A5D-1C39-8CD3-FEE3-DC5E1BE3E12A</importedID>
+<use>0</use>
+<domain>BC9D9793-4864-37C5-719C-09CB22799329</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF428DD7-DE39-A05B-6E42-47DB6312CA33" name="ponto_doacao_PK">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>03E75010-F42D-6F43-7B1A-55DD7D7F866C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EE82F40-A268-78A1-9E55-123DD4BDDADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

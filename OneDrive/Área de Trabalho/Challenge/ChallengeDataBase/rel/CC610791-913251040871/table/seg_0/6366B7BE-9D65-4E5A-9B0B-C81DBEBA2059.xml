@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6366B7BE-9D65-4E5A-9B0B-C81DBEBA2059" name="usuarios_pf">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:13 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>CF33BCC5-A95C-2758-A821-F3410D782AB4</importedID>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario_pf" id="D95A1AC0-BB6D-CEDC-D834-6F4BB0F6FA30">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>781D1B2A-B5A6-029A-49D1-32C40E1DB974</importedID>
+<use>0</use>
+<domain>BC9D9793-4864-37C5-719C-09CB22799329</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="cpf" id="94AB69EA-6CAD-7644-004B-AE87174CDBDD">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>7A1CA53F-796E-E876-987B-063CC4FA7170</importedID>
+<use>0</use>
+<domain>600F1536-606E-0728-E7B9-C578A6322CE0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rg" id="8C716CEB-FD5E-A383-3D63-355E6467A49B">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>E886C199-23BE-CFF9-2759-3192DEA5F235</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>501FB050-086C-7247-96C9-470089478C75</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_endereco" id="25889D97-E85A-5A9F-6A7F-014AAF42EDC4">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>381609BD-CE68-FFE4-C9E1-EFACAE6B663B</importedID>
+<use>0</use>
+<domain>BC9D9793-4864-37C5-719C-09CB22799329</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D759BD46-3F42-7C7E-38E9-C3C9AD7F785D" name="usuarios_pf_PK">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>96E23D14-B40D-033D-3B2F-E2DA15468C82</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D95A1AC0-BB6D-CEDC-D834-6F4BB0F6FA30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DF0719C-0CBD-464F-1532-CC94B6DC5259" name="INDEX_1v1">
+<sourceDDLFile>plusoft.sql</sourceDDLFile>
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<importedID>FDE68535-174C-752F-9A20-DFC5FD677625</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94AB69EA-6CAD-7644-004B-AE87174CDBDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

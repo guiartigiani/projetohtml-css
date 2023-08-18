@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C00C4E8-F8D3-0903-7295-E8C362175FED" name="TB_DOADOR_PF">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:07:51 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_doador_pf" id="F976A0A6-ED47-207A-A033-899F8F297A01">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:08:50 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="650B876B-0EB3-0C59-6B6C-C793E9C5FC80" referredColumn="223DBFD4-FACB-2CF5-00FA-EEEA6AAFF404"/>
+</associations>
+</Column>
+<Column name="nome" id="7679438E-4AAB-DB71-A1BB-DAEE3567636A">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:11:01 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="AD99D8A6-6464-5198-BC58-0B7E4BC81E05">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:11:01 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_TELEFONE_id_telefone" id="B88EE266-0099-C046-766F-B811BA806D69">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:17:34 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF257990-33D4-BC82-6FF1-DBEBF7054A63" referredColumn="CE7606F1-1150-906F-AFD7-99374C4BA31A"/>
+</associations>
+</Column>
+<Column name="Endereco_CEP_id_endereco" id="23C75F70-CE71-C379-A807-9F31F844C5F4">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:22:00 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="355D03FE-A7C7-BD5C-849C-472FDCC26BA6" referredColumn="26AC0AED-E3A9-3D64-1932-1C29E90B10E1"/>
+</associations>
+</Column>
+<Column name="email" id="31FD9E0E-CABF-6389-11EA-68F6E1B5CB10">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:30:01 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEC3B173-CC25-DBD0-F92E-00564B93CCEF" name="TB_DOADOR_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:08:50 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F976A0A6-ED47-207A-A033-899F8F297A01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F838EF34-C45B-15D7-9BD2-D7860B43DDA5" name="TB_DOADOR_PF__UN">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:29:29 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD99D8A6-6464-5198-BC58-0B7E4BC81E05"/>
+<colUsage columnID="31FD9E0E-CABF-6389-11EA-68F6E1B5CB10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0ECFFBB-6882-C967-0882-7AB8C3AFFB51" name="TB_DOADOR_PF_TB_TELEFONE_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:17:34 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B88EE266-0099-C046-766F-B811BA806D69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A5A755A-49AA-499E-43F0-AA15AF2F54CC" name="TB_DOADOR_PF_Endereco_CEP_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:22:00 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23C75F70-CE71-C379-A807-9F31F844C5F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE1A83D0-0351-FFFA-5717-78E4019A630B" name="TB_DOADOR_PF_TB_DOADOR_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:20:26 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F976A0A6-ED47-207A-A033-899F8F297A01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

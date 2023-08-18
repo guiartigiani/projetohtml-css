@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_id_usuario1v1" directorySegmentName="seg_0" id="5CAA6F95-96BB-2563-BBE5-0E274AED10DB">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 14:18:00 UTC</createdTime>
+<generatorID>AC5C9F79-485A-F9C3-B219-9D920151DDC4</generatorID>
+<ownerDesignName>HearMeOut</ownerDesignName>
+<engineerTo>
+<item key="2BD593D9-1E28-24EA-B409-8ADF419EE469" value="true"/>
+<item key="4BFAA734-17E9-6A33-BE42-0E253F482AD1" value="true"/>
+</engineerTo>
+<sourcePk>715465BD-C54E-4AC2-8739-C829BCA2D5DD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>94E2C0D8-0BED-2D79-EA5D-E6A75AA90DFF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>83B443B5-05F2-7608-0D44-226CEAC76AAB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Endereco_CEP_Enderecos_FK" directorySegmentName="seg_0" id="B9FE83B0-EC8D-C876-ACF2-DFD63C01E113">
+<createdBy>guilh</createdBy>
+<createdTime>2023-05-19 22:48:33 UTC</createdTime>
+<generatorID>C674CF45-75CA-FC48-D790-B26ED9B87263</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<sourcePk>4B415745-F140-1454-C02A-E26B204BBA1C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B9C5A88C-AD7E-3C44-85EE-9290F8CF80E1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>86D835A2-82EB-9263-FF97-B6386DEED25B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

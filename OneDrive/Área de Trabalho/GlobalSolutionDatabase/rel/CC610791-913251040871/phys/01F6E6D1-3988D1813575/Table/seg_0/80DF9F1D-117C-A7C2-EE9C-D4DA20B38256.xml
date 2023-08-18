@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CEP" directorySegmentName="seg_0" id="80DF9F1D-117C-A7C2-EE9C-D4DA20B38256">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_cep" id="1473C29D-7A22-E353-4B91-DAA572290B1F">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="numero_cep" id="9586DFA2-4434-BCAD-FE32-EC1C60C18C7D">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CEP_PK" id="075035E9-C6A3-6DE5-982F-E557EB6685E1">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 13:53:38 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

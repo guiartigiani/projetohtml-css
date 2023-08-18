@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3D917CA2-BA68-B599-B9E6-2A849B568F5E" containerWithKeyObject="34CE4973-7355-36F5-D9D3-A5F60C01F98E" localFKIndex="920732EA-F7F8-27FD-39F0-ED0B028C1984" name="TB_DOACAO_TB_DOADOR_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:58:55 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<referredTableLongName>TB_DOADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>876EBE42-1EA6-0D1B-8EA4-D959A5F762D3</referredTableID>
+<keyObject>1C4F4E40-BF33-1138-AF8C-CB51A16BD0DC</keyObject>
+<referredKeyID>1C4F4E40-BF33-1138-AF8C-CB51A16BD0DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_doador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

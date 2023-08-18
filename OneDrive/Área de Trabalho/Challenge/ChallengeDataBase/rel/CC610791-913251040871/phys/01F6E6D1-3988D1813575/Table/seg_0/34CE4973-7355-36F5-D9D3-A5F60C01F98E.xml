@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TB_DOACAO" directorySegmentName="seg_0" id="34CE4973-7355-36F5-D9D3-A5F60C01F98E">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 10:39:45 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_ponto" id="55F17C90-EF51-E131-5B2F-E7766A2AA64C">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 10:39:45 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="tb_doacao_PK" id="F9942317-F528-5D26-4D19-F278B187F015">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 10:39:45 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

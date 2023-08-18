@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B969F45C-B2AE-7598-EF5A-92B81CE764CC" name="TB DOACAO">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:43:31 UTC</createdTime>
+<generatorID>34CE4973-7355-36F5-D9D3-A5F60C01F98E</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id doacao" id="35D279C3-2790-4D05-8AFC-BDED73C9D081">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:43:31 UTC</createdTime>
+<generatorID>3ACBC7C0-07D1-2769-6405-0F50C9105003</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd item" id="70DD9175-03BB-450E-B03A-A27D94193C6B">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:43:31 UTC</createdTime>
+<generatorID>1A9C9C9E-1606-B354-2E6B-362CD8A94EC4</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A37F5E4A-BEA5-3524-52E7-C01C94F79705</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TB ITEM id item" id="77827FB5-EA68-962A-1F51-4E85F216BF4A">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:43:31 UTC</createdTime>
+<generatorID>F2AC1D40-945F-7B43-44AF-0A0BEF5D1C64</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<referedAttribute>8E1133E5-F3B7-F243-C9DA-C55B29037B7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data doacao" id="53B1D2CC-6EBF-C779-7282-28F9E791F039">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:43:31 UTC</createdTime>
+<generatorID>131ADC06-B16C-1DA5-25CE-53C70CF77E7C</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>08E6AD74-8E45-E125-18F1-A47D174D9D35</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TB DOADOR id doador" id="493059E8-9707-0DE1-4953-B3E45489ABB3">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:16:32 UTC</createdTime>
+<generatorID>6DFBAEC7-2AB1-28CE-15C8-BE593C9F714D</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<referedAttribute>65CCDFB8-95C2-E62F-2213-54BED44AF7D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TB DOADOR id doador1" id="3D402AFE-16DA-531E-EA51-0F0A6F60FC8B">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:16:32 UTC</createdTime>
+<generatorID>5C46DE7E-C2D0-817C-C09B-A51A17242167</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<referedAttribute>65CCDFB8-95C2-E62F-2213-54BED44AF7D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>E3249060-1E99-E4FB-5F80-5AB49C54BA33</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="54761871-33D8-5B9F-877E-D2EBE3A049AB">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:16:32 UTC</createdTime>
+<generatorID>622BB5DE-41CC-22FA-E51E-5517F8B4C55A</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<referedAttribute>19CBF32F-A227-F6C3-312C-BA3FB180C2F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="10902E41-CD95-06AE-95A8-E54531C144FD">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 15:33:41 UTC</createdTime>
+<generatorID>622BB5DE-41CC-22FA-E51E-5517F8B4C55A</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<referedAttribute>1803EA66-288E-D5AC-DBF7-76320498B2D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>AB5094D0-9271-2C75-6EE7-613BAE0E7704</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40255ECC-CEB3-5366-8E67-CCC917051081" name="tb doacao PK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:43:31 UTC</createdTime>
+<generatorID>F9942317-F528-5D26-4D19-F278B187F015</generatorID>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<engineerTo>
+<item key="CC610791-D796-B288-F1D2-913251040871" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35D279C3-2790-4D05-8AFC-BDED73C9D081</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

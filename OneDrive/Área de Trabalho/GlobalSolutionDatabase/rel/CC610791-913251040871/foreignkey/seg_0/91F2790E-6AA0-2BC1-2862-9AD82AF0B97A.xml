@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="91F2790E-6AA0-2BC1-2862-9AD82AF0B97A" containerWithKeyObject="34CE4973-7355-36F5-D9D3-A5F60C01F98E" localFKIndex="F09B43A0-9BE4-6E70-010B-D9C5540B0E56" name="TB_DOACAO_ponto_doacao_FK">
+<createdBy>guilh</createdBy>
+<createdTime>2023-06-01 14:57:16 UTC</createdTime>
+<ownerDesignName>GlobalSolutionDatabase</ownerDesignName>
+<referredTableLongName>ponto_doacao</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF93E2F4-0344-E2AC-A29C-6EEBAD6714A9</referredTableID>
+<keyObject>EF428DD7-DE39-A05B-6E42-47DB6312CA33</keyObject>
+<referredKeyID>EF428DD7-DE39-A05B-6E42-47DB6312CA33</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ponto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

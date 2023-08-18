@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="enderecos" directorySegmentName="seg_0" id="1328702F-092A-D1DE-D157-F5A68B8A5940">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:13 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="bairro" id="1F9832D5-8E4D-2BB4-E1D5-D282ADB89C1A">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cep" id="26F4384A-FCE2-37CA-B2D1-55F73399072A">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cidade" id="2E362229-4128-F81E-9FF9-A6CB9CEB2DDA">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="estado" id="61B92F81-C33E-EACA-6E11-9348ED27171E">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="numero" id="69D93C55-A30A-1C84-6C66-D6ABF66C441C">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="complemento" id="A0327923-FF77-4326-43B0-D24B8A5CA432">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_endereco" id="C957C59A-844E-2F0A-0A67-AEFD27D61798">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:13 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="rua" id="E12794ED-6B11-5598-5DC6-B483CECF182B">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="enderecos_PK" id="0BBE6277-7852-81A8-0A30-771BA1ABBCC4">
+<createdBy>guilh</createdBy>
+<createdTime>2023-04-05 16:26:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataBase</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
